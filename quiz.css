@@ -1,0 +1,115 @@
+/*FIRST SECTION*/
+
+
+/*first child block element*/
+
+.card {
+	text-align: center;
+	border: 1px solid lightblue;
+	width: 30%;
+	float: left;
+	margin: 0 1.5% 20px 1.5%;
+
+}
+
+.lineGray {
+	border-bottom: solid lightgray;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.mainText {
+	text-align: justify;
+	padding: 15px;
+	margin-top: 0px;
+}
+
+/*second child block element*/
+
+.imgPick {
+	height: 100px;
+	padding: 40px 0 15px;
+}
+
+/*third child block element*/
+
+.availBlock {
+	border: 0px solid darkgray;
+	background-color: darkgray;
+	color: yellow;
+	text-align: left;
+}
+
+.littleAvail {
+	padding-left: 5px;
+}
+
+
+/*SECOND SECTION*/
+
+/*second section header*/
+
+.bigSpecs {
+	text-align: left;
+	padding-left: 10px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+/*first and seond block element*/
+.littleSpecs {
+	padding-left: 17px;
+}
+
+.littleSpecs p {
+	text-align: left;
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0px;
+}
+
+/*footer*/
+.foot{
+	text-align: left;
+	font-size: 11px;
+}
+
+.foot p {
+	margin: 5px 0 0;
+}
+
+/*THIRD SECTION*/
+
+/*third section header*/
+.bigPrice {
+	text-align: left;
+	padding-left: 10px;
+	font-weight: 700;
+	margin: 0px;
+	font-size: 14px;
+}
+
+/*third section block elements*/
+
+.littlePrice {
+	padding-left: 17px;
+}
+
+.littlePrice p {
+	text-align: left;
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
