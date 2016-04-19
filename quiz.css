@@ -3,8 +3,9 @@
 
 /*first child block element*/
 
+
+/* Class card is the default style */
 .card {
-	text-align: center;
 	border: 1px solid lightblue;
 	width: 30%;
 	float: left;
@@ -12,12 +13,15 @@
 
 }
 
+/*Class Linegray has the name of each pie*/
 .lineGray {
-	border-bottom: solid lightgray;
+	text-align: center;
+	border: 1px dotted lightgray;
 	padding: 15px 0;
 	margin: 0;
 }
 
+/*Class mainText is the discription of each pie*/
 .mainText {
 	text-align: justify;
 	padding: 15px;
@@ -26,18 +30,22 @@
 
 /*second child block element*/
 
-.imgPick {
+/*class imPic has the specs for all the images*/
+.imgPic {
 	height: 100px;
 	padding: 40px 0 15px;
+	display: block;
+	margin: auto;
 }
 
 /*third child block element*/
+
+/*Both class availBlock and littleAvail  display specs for the available div*/
 
 .availBlock {
 	border: 0px solid darkgray;
 	background-color: darkgray;
 	color: yellow;
-	text-align: left;
 }
 
 .littleAvail {
@@ -45,25 +53,23 @@
 }
 
 
-/*SECOND SECTION*/
+/*SECOND and THIRD SECTIONS*/
 
-/*second section header*/
+/*second  and third section headers*/
 
 .bigSpecs {
-	text-align: left;
 	padding-left: 10px;
 	font-weight: 700;
 	margin-bottom: 0px;
 	font-size: 14px;
 }
 
-/*first and seond block element*/
+/*first and second block element plus the css for the third section block elements*/
 .littleSpecs {
 	padding-left: 17px;
 }
 
 .littleSpecs p {
-	text-align: left;
 	font-weight: 700;
 	font-size: 12px;
 	margin: 0px;
@@ -71,45 +77,11 @@
 
 /*footer*/
 .foot{
-	text-align: left;
 	font-size: 11px;
 }
 
 .foot p {
 	margin: 5px 0 0;
 }
-
-/*THIRD SECTION*/
-
-/*third section header*/
-.bigPrice {
-	text-align: left;
-	padding-left: 10px;
-	font-weight: 700;
-	margin: 0px;
-	font-size: 14px;
-}
-
-/*third section block elements*/
-
-.littlePrice {
-	padding-left: 17px;
-}
-
-.littlePrice p {
-	text-align: left;
-	font-weight: 700;
-	font-size: 12px;
-	margin: 0px;
-}
-
-
-
-
-
-
-
-
-
 
 
