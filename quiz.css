@@ -1,0 +1,87 @@
+/*FIRST SECTION*/
+
+
+/*first child block element*/
+
+
+/* Class card is the default style */
+.card {
+	border: 1px solid lightblue;
+	width: 30%;
+	float: left;
+	margin: 0 1.5% 20px 1.5%;
+
+}
+
+/*Class Linegray has the name of each pie*/
+.lineGray {
+	text-align: center;
+	border: 1px dotted lightgray;
+	padding: 15px 0;
+	margin: 0;
+}
+
+/*Class mainText is the discription of each pie*/
+.mainText {
+	text-align: justify;
+	padding: 15px;
+	margin-top: 0px;
+}
+
+/*second child block element*/
+
+/*class imPic has the specs for all the images*/
+.imgPic {
+	height: 100px;
+	padding: 40px 0 15px;
+	display: block;
+	margin: auto;
+}
+
+/*third child block element*/
+
+/*Both class availBlock and littleAvail  display specs for the available div*/
+
+.availBlock {
+	border: 0px solid darkgray;
+	background-color: darkgray;
+	color: yellow;
+}
+
+.littleAvail {
+	padding-left: 5px;
+}
+
+
+/*SECOND and THIRD SECTIONS*/
+
+/*second  and third section headers*/
+
+.bigSpecs {
+	padding-left: 10px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+/*first and second block element plus the css for the third section block elements*/
+.littleSpecs {
+	padding-left: 17px;
+}
+
+.littleSpecs p {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0px;
+}
+
+/*footer*/
+.foot{
+	font-size: 11px;
+}
+
+.foot p {
+	margin: 5px 0 0;
+}
+
+
